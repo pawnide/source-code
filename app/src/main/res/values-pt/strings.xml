@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Notice Messages -->
+	<string name="notice_msg_001" formatted="false">; Você quis dizer "%s"?</string>
+	<string name="notice_msg_002" formatted="false">; Variável de estado fora de escopo</string>
+
+	<!-- Fatal Messages -->
+	<string name="fatal_msg_100" formatted="false">não foi possível ler do arquivo: "%s"</string>
+	<string name="fatal_msg_101" formatted="false">não foi possível escrever no arquivo: "%s"</string>
+	<string name="fatal_msg_102" formatted="false">tabela excedeu o limite permitido: "%s"</string>
+	<string name="fatal_msg_103" formatted="false">memória insuficiente</string>
+	<string name="fatal_msg_104" formatted="false">instrução assembly inválida: "%s"</string>
+	<string name="fatal_msg_105" formatted="false">valor numérico excedeu a capacidade permitida</string>
+	<string name="fatal_msg_106" formatted="false">script compilado excede o tamanho máximo de memória (%ld bytes)</string>
+	<string name="fatal_msg_107" formatted="false">muitas mensagens de erro em uma única linha</string>
+	<string name="fatal_msg_108" formatted="false">arquivo de mapeamento de codepage não encontrado</string>
+	<string name="fatal_msg_109" formatted="false">caminho inválido: "%s"</string>
+	<string name="fatal_msg_110" formatted="false">falha na verificação interna: %s</string>
+	<string name="fatal_msg_111" formatted="false">erro do usuário: %s</string>
+	
+	<!-- Error Messages -->
+	<string name="error_msg_001" formatted="false">token esperado: "%s", mas encontrado "%s"</string>
+	<string name="error_msg_002" formatted="false">apenas uma única instrução (ou expressão) pode seguir cada "case"</string>
+	<string name="error_msg_003" formatted="false">declaração de variável local deve aparecer em um bloco composto</string>
+	<string name="error_msg_004" formatted="false">função "%s" não está implementada</string>
+	<string name="error_msg_005" formatted="false">função não pode ter argumentos</string>
+	<string name="error_msg_006" formatted="false">deve ser atribuído a um array</string>
+	<string name="error_msg_007" formatted="false">operador não pode ser redefinido</string>
+	<string name="error_msg_008" formatted="false">deve ser uma expressão constante; assumido zero</string>
+	<string name="error_msg_009" formatted="false">tamanho de array inválido (negativo, zero ou fora do limite)</string>
+	<string name="error_msg_010" formatted="false">função ou declaração inválida</string>
+	<string name="error_msg_011" formatted="false">deslocamento de pilha/endereço de dados deve ser múltiplo do tamanho de célula</string>
+	<string name="error_msg_012" formatted="false">chamada de função inválida, endereço inválido</string>
+	<string name="error_msg_013" formatted="false">nenhum ponto de entrada (sem funções públicas)</string>
+	<string name="error_msg_014" formatted="false">instrução inválida; não está dentro de um switch</string>
+	<string name="error_msg_015" formatted="false">caso "default" deve ser o último em um switch</string>
+	<string name="error_msg_016" formatted="false">múltiplos "default" no "switch"</string>
+	<string name="error_msg_017" formatted="false">símbolo indefinido "%s"</string>
+	<string name="error_msg_018" formatted="false">dados de inicialização excedem o tamanho declarado</string>
+	<string name="error_msg_019" formatted="false">não é um rótulo: "%s"</string>
+	<string name="error_msg_020" formatted="false">nome de símbolo inválido "%s"</string>
+	<string name="error_msg_021" formatted="false">símbolo já definido: "%s"</string>
+	<string name="error_msg_022" formatted="false">deve ser um lvalue (não-constante)</string>
+	<string name="error_msg_023" formatted="false">atribuição de array deve ser simples</string>
+	<string name="error_msg_024" formatted="false">"break" ou "continue" fora de contexto</string>
+	<string name="error_msg_025" formatted="false">cabeçalho da função difere do protótipo</string>
+	<string name="error_msg_026" formatted="false">"#if..." sem correspondente</string>
+	<string name="error_msg_027" formatted="false">constante de caractere inválida</string>
+	<string name="error_msg_028" formatted="false">subscrito inválido (não é array ou subscritos em excesso): "%s"</string>
+	<string name="error_msg_029" formatted="false">expressão inválida, assumido zero</string>
+	<string name="error_msg_030" formatted="false">bloco composto não fechado ao fim do arquivo (iniciado na linha %d)</string>
+	<string name="error_msg_031" formatted="false">diretiva desconhecida</string>
+	<string name="error_msg_032" formatted="false">índice de array fora dos limites (variável "%s")</string>
+	<string name="error_msg_033" formatted="false">array deve ser indexado (variável "%s")</string>
+	<string name="error_msg_034" formatted="false">argumento não possui valor padrão (argumento %d)</string>
+	<string name="error_msg_035" formatted="false">tipo do argumento não corresponde (argumento %d)</string>
+	<string name="error_msg_036" formatted="false">instrução vazia</string>
+	<string name="error_msg_037" formatted="false">string inválida (possivelmente não terminada)</string>
+	<string name="error_msg_038" formatted="false">caracteres extras na linha</string>
+	<string name="error_msg_039" formatted="false">símbolo constante sem tamanho</string>
+	<string name="error_msg_040" formatted="false">rótulo "case" duplicado (valor %d)</string>
+	<string name="error_msg_041" formatted="false">reticência inválida, tamanho do array é desconhecido</string>
+	<string name="error_msg_042" formatted="false">combinação inválida de especificadores de classe</string>
+	<string name="error_msg_043" formatted="false">constante de caractere excede o intervalo para string compactada</string>
+	<string name="error_msg_044" formatted="false">parâmetros posicionais devem preceder os nomeados</string>
+	<string name="error_msg_045" formatted="false">muitos argumentos de função</string>
+	<string name="error_msg_046" formatted="false">tamanho do array desconhecido (variável "%s")</string>
+	<string name="error_msg_047" formatted="false">tamanhos de arrays não coincidem ou array de destino muito pequeno</string>
+	<string name="error_msg_048" formatted="false">dimensões do array não coincidem</string>
+	<string name="error_msg_049" formatted="false">continuação de linha inválida</string>
+	<string name="error_msg_050" formatted="false">intervalo inválido</string>
+	<string name="error_msg_051" formatted="false">subscrito inválido, use operadores "[ ]" nas dimensões principais</string>
+	<string name="error_msg_052" formatted="false">arrays multidimensionais devem ser totalmente inicializados</string>
+	<string name="error_msg_053" formatted="false">excedido número máximo de dimensões</string>
+	<string name="error_msg_054" formatted="false">chave de fechamento não correspondente ("}")</string>
+	<string name="error_msg_055" formatted="false">início de corpo de função sem cabeçalho</string>
+	<string name="error_msg_056" formatted="false">arrays, variáveis locais e argumentos não podem ser públicos (variável "%s")</string>
+	<string name="error_msg_057" formatted="false">expressão inacabada antes de diretiva do compilador</string>
+	<string name="error_msg_058" formatted="false">argumento duplicado; mesmo argumento passado duas vezes</string>
+	<string name="error_msg_059" formatted="false">argumento de função não pode ter valor padrão (variável "%s")</string>
+	<string name="error_msg_060" formatted="false">múltiplos "#else" entre "#if ... #endif"</string>
+	<string name="error_msg_061" formatted="false">diretiva "#elseif" vem após uma "#else"</string>
+	<string name="error_msg_062" formatted="false">número de operandos não corresponde ao operador</string>
+	<string name="error_msg_063" formatted="false">tag de retorno da função do operador "%s" deve ser "%s"</string>
+	<string name="error_msg_064" formatted="false">não é possível alterar operadores predefinidos</string>
+	<string name="error_msg_065" formatted="false">argumento de função só pode ter um único tag (argumento %d)</string>
+	<string name="error_msg_066" formatted="false">argumento não pode ser referência nem array (argumento "%s")</string>
+	<string name="error_msg_067" formatted="false">variável não pode ser referência e array ao mesmo tempo (variável "%s")</string>
+	<string name="error_msg_068" formatted="false">precisão inválida de número racional no #pragma</string>
+	<string name="error_msg_069" formatted="false">formato de número racional já definido</string>
+	<string name="error_msg_070" formatted="false">suporte a número racional não foi habilitado</string>
+	<string name="error_msg_071" formatted="false">operador definido pelo usuário deve ser declarado antes do uso (função "%s")</string>
+	<string name="error_msg_072" formatted="false">operador "sizeof" é inválido em símbolos do tipo "função"</string>
+	<string name="error_msg_073" formatted="false">argumento de função deve ser um array (argumento "%s")</string>
+	<string name="error_msg_074" formatted="false">padrão de #define deve começar com caractere alfabético</string>
+	<string name="error_msg_075" formatted="false">linha de entrada muito longa (após substituições)</string>
+	<string name="error_msg_076" formatted="false">erro de sintaxe na expressão, ou chamada de função inválida</string>
+	<string name="error_msg_077" formatted="false">codificação UTF-8 malformada ou arquivo corrompido: %s</string>
+	<string name="error_msg_078" formatted="false">função usa "return" e "return &lt;valor&gt;" ao mesmo tempo</string>
+	<string name="error_msg_079" formatted="false">tipos de retorno inconsistentes (array e não-array)</string>
+	<string name="error_msg_080" formatted="false">símbolo desconhecido ou não é constante (símbolo "%s")</string>
+	<string name="error_msg_081" formatted="false">não é possível usar tag como valor padrão para array indexado (símbolo "%s")</string>
+	<string name="error_msg_082" formatted="false">operadores definidos pelo usuário e funções nativas não podem ter estados</string>
+	<string name="error_msg_083" formatted="false">função ou variável só pode pertencer a um único autômato (símbolo "%s")</string>
+	<string name="error_msg_084" formatted="false">conflito de estado: um dos estados já está atribuído a outra implementação (símbolo "%s")</string>
+	<string name="error_msg_085" formatted="false">nenhum estado definido para o símbolo "%s"</string>
+	<string name="error_msg_086" formatted="false">autômato desconhecido "%s"</string>
+	<string name="error_msg_087" formatted="false">estado desconhecido "%s" para o autômato "%s"</string>
+	<string name="error_msg_088" formatted="false">variáveis públicas e locais não podem ter estados (símbolo "%s")</string>
+	<string name="error_msg_089" formatted="false">variáveis de estado não podem ser inicializadas (símbolo "%s")</string>
+	<string name="error_msg_090" formatted="false">funções públicas não podem retornar arrays (símbolo "%s")</string>
+	<string name="error_msg_091" formatted="false">constante ambígua; é necessário sobrescrever o tag (símbolo "%s")</string>
+	<string name="error_msg_092" formatted="false">funções não podem retornar arrays de tamanho desconhecido (símbolo "%s")</string>
+	<string name="error_msg_093" formatted="false">operador "__addressof" é inválido em expressões do pré-processador</string>
+	
+	<!-- Warning Messages -->
+	<string name="warning_msg_200" formatted="false">símbolo "%s" foi truncado para %d caracteres</string>
+	<string name="warning_msg_201" formatted="false">redefinição de constante/macro (símbolo "%s")</string>
+	<string name="warning_msg_202" formatted="false">número de argumentos não corresponde à definição</string>
+	<string name="warning_msg_203" formatted="false">símbolo nunca é utilizado: "%s"</string>
+	<string name="warning_msg_204" formatted="false">símbolo recebeu um valor que nunca é usado: "%s"</string>
+	<string name="warning_msg_205" formatted="false">código redundante: expressão constante é zero</string>
+	<string name="warning_msg_206" formatted="false">teste redundante: expressão constante é diferente de zero</string>
+	<string name="warning_msg_207" formatted="false">#pragma desconhecido</string>
+	<string name="warning_msg_208" formatted="false">função com resultado do tipo "tag" usada antes da definição, forçando nova análise</string>
+	<string name="warning_msg_209" formatted="false">função "%s" deveria retornar um valor</string>
+	<string name="warning_msg_210" formatted="false">uso possível de símbolo antes da inicialização: "%s"</string>
+	<string name="warning_msg_211" formatted="false">atribuição possivelmente não intencional</string>
+	<string name="warning_msg_212" formatted="false">operação binária possivelmente não intencional</string>
+	<string name="warning_msg_213" formatted="false">incompatibilidade de tags: esperado %s %s mas encontrado %s</string>
+	<string name="warning_msg_214" formatted="false">possivelmente era esperado um argumento "const" do tipo array: "%s"</string>
+	<string name="warning_msg_215" formatted="false">expressão sem efeito</string>
+	<string name="warning_msg_216" formatted="false">comentário aninhado</string>
+	<string name="warning_msg_217" formatted="false">indentação desalinhada</string>
+	<string name="warning_msg_218" formatted="false">protótipos no estilo antigo usados com ponto e vírgula opcional</string>
+	<string name="warning_msg_219" formatted="false">variável local "%s" oculta uma variável em nível anterior</string>
+	<string name="warning_msg_220" formatted="false">expressão com sobrescrição de tag deve estar entre parênteses</string>
+	<string name="warning_msg_221" formatted="false">nome de rótulo "%s" oculta nome de tag</string>
+	<string name="warning_msg_222" formatted="false">número de dígitos excede a precisão do número racional</string>
+	<string name="warning_msg_223" formatted="false">"sizeof" redundante: tamanho do argumento é sempre 1 (símbolo "%s")</string>
+	<string name="warning_msg_224" formatted="false">tamanho indeterminado de array na expressão "sizeof" (símbolo "%s")</string>
+	<string name="warning_msg_225" formatted="false">código inalcançável</string>
+	<string name="warning_msg_226" formatted="false">uma variável está sendo atribuída a si mesma (símbolo "%s")</string>
+	<string name="warning_msg_227" formatted="false">mais inicializadores que campos no enum</string>
+	<string name="warning_msg_228" formatted="false">tamanho do inicializador excede o tamanho do campo do enum</string>
+	<string name="warning_msg_229" formatted="false">incompatibilidade de tag de índice (símbolo "%s"): esperado tag %s mas encontrado %s</string>
+	<string name="warning_msg_230" formatted="false">sem implementação para o estado "%s" na função "%s", sem fallback</string>
+	<string name="warning_msg_231" formatted="false">especificação de estado na declaração antecipada foi ignorada</string>
+	<string name="warning_msg_232" formatted="false">arquivo de saída foi escrito, mas com codificação compacta desativada</string>
+	<string name="warning_msg_233" formatted="false">variável de estado "%s" oculta uma variável global</string>
+	<string name="warning_msg_234" formatted="false">função está obsoleta (símbolo "%s") %s</string>
+	<string name="warning_msg_235" formatted="false">função pública não possui declaração antecipada (símbolo "%s")</string>
+	<string name="warning_msg_236" formatted="false">parâmetro desconhecido em substituição (padrão de #define incorreto)</string>
+	<string name="warning_msg_237" formatted="false">aviso do usuário: %s</string>
+	<string name="warning_msg_238" formatted="false">combinação sem sentido de especificadores de classe (%s)</string>
+	<string name="warning_msg_239" formatted="false">array/string literal passada para um parâmetro não-constante</string>
+</resources>

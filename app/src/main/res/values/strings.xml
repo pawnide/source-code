@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name" formatted="false">Pawn IDE</string>
+
+	<!-- Notice Messages -->
+	<string name="notice_msg_001" formatted="false">; did you mean "%s"?</string>
+	<string name="notice_msg_002" formatted="false">; state variable out of scope</string>
+	
+	<!-- Fatal Messages -->
+	<string name="fatal_msg_100" formatted="false">cannot read from file: "%s"</string>
+	<string name="fatal_msg_101" formatted="false">cannot write to file: "%s"</string>
+	<string name="fatal_msg_102" formatted="false">table overflow: "%s"</string>
+	<string name="fatal_msg_103" formatted="false">insufficient memory</string>
+	<string name="fatal_msg_104" formatted="false">invalid assembler instruction "%s"</string>
+	<string name="fatal_msg_105" formatted="false">numeric overflow, exceeding capacity</string>
+	<string name="fatal_msg_106" formatted="false">compiled script exceeds the maximum memory size (%ld bytes)</string>
+	<string name="fatal_msg_107" formatted="false">too many error messages on one line</string>
+	<string name="fatal_msg_108" formatted="false">codepage mapping file not found</string>
+	<string name="fatal_msg_109" formatted="false">invalid path: "%s"</string>
+	<string name="fatal_msg_110" formatted="false">assertion failed: %s</string>
+	<string name="fatal_msg_111" formatted="false">user error: %s</string>
+	
+	<!-- Error Messages -->
+	<string name="error_msg_001" formatted="false">expected token: "%s", but found "%s"</string>
+	<string name="error_msg_002" formatted="false">only a single statement (or expression) can follow each "case"</string>
+	<string name="error_msg_003" formatted="false">declaration of a local variable must appear in a compound block</string>
+	<string name="error_msg_004" formatted="false">function "%s" is not implemented</string>
+	<string name="error_msg_005" formatted="false">function may not have arguments</string>
+	<string name="error_msg_006" formatted="false">must be assigned to an array</string>
+	<string name="error_msg_007" formatted="false">operator cannot be redefined</string>
+	<string name="error_msg_008" formatted="false">must be a constant expression; assumed zero</string>
+	<string name="error_msg_009" formatted="false">invalid array size (negative, zero or out of bounds)</string>
+	<string name="error_msg_010" formatted="false">invalid function or declaration</string>
+	<string name="error_msg_011" formatted="false">stack offset/data address must be a multiple of cell size</string>
+	<string name="error_msg_012" formatted="false">invalid function call, not a valid address</string>
+	<string name="error_msg_013" formatted="false">no entry point (no public functions)</string>
+	<string name="error_msg_014" formatted="false">invalid statement; not in switch</string>
+	<string name="error_msg_015" formatted="false">"default" case must be the last case in switch statement</string>
+	<string name="error_msg_016" formatted="false">multiple defaults in "switch"</string>
+	<string name="error_msg_017" formatted="false">undefined symbol "%s"</string>
+	<string name="error_msg_018" formatted="false">initialization data exceeds declared size</string>
+	<string name="error_msg_019" formatted="false">not a label: "%s"</string>
+	<string name="error_msg_020" formatted="false">invalid symbol name "%s"</string>
+	<string name="error_msg_021" formatted="false">symbol already defined: "%s"</string>
+	<string name="error_msg_022" formatted="false">must be lvalue (non-constant)</string>
+	<string name="error_msg_023" formatted="false">array assignment must be simple assignment</string>
+	<string name="error_msg_024" formatted="false">"break" or "continue" is out of context</string>
+	<string name="error_msg_025" formatted="false">function heading differs from prototype</string>
+	<string name="error_msg_026" formatted="false">no matching "#if..."</string>
+	<string name="error_msg_027" formatted="false">invalid character constant</string>
+	<string name="error_msg_028" formatted="false">invalid subscript (not an array or too many subscripts): "%s"</string>
+	<string name="error_msg_029" formatted="false">invalid expression, assumed zero</string>
+	<string name="error_msg_030" formatted="false">compound statement not closed at the end of file (started at line %d)</string>
+	<string name="error_msg_031" formatted="false">unknown directive</string>
+	<string name="error_msg_032" formatted="false">array index out of bounds (variable "%s")</string>
+	<string name="error_msg_033" formatted="false">array must be indexed (variable "%s")</string>
+	<string name="error_msg_034" formatted="false">argument does not have a default value (argument %d)</string>
+	<string name="error_msg_035" formatted="false">argument type mismatch (argument %d)</string>
+	<string name="error_msg_036" formatted="false">empty statement</string>
+	<string name="error_msg_037" formatted="false">invalid string (possibly non-terminated string)</string>
+	<string name="error_msg_038" formatted="false">extra characters on line</string>
+	<string name="error_msg_039" formatted="false">constant symbol has no size</string>
+	<string name="error_msg_040" formatted="false">duplicate "case" label (value %d)</string>
+	<string name="error_msg_041" formatted="false">invalid ellipsis, array size is not known</string>
+	<string name="error_msg_042" formatted="false">invalid combination of class specifiers</string>
+	<string name="error_msg_043" formatted="false">character constant exceeds range for packed string</string>
+	<string name="error_msg_044" formatted="false">positional parameters must precede all named parameters</string>
+	<string name="error_msg_045" formatted="false">too many function arguments</string>
+	<string name="error_msg_046" formatted="false">unknown array size (variable "%s")</string>
+	<string name="error_msg_047" formatted="false">array sizes do not match, or destination array is too small</string>
+	<string name="error_msg_048" formatted="false">array dimensions do not match</string>
+	<string name="error_msg_049" formatted="false">invalid line continuation</string>
+	<string name="error_msg_050" formatted="false">invalid range</string>
+	<string name="error_msg_051" formatted="false">invalid subscript, use "[ ]" operators on major dimensions</string>
+	<string name="error_msg_052" formatted="false">multi-dimensional arrays must be fully initialized</string>
+	<string name="error_msg_053" formatted="false">exceeding maximum number of dimensions</string>
+	<string name="error_msg_054" formatted="false">unmatched closing brace ("}")</string>
+	<string name="error_msg_055" formatted="false">start of function body without function header</string>
+	<string name="error_msg_056" formatted="false">arrays, local variables and function arguments cannot be public (variable "%s")</string>
+	<string name="error_msg_057" formatted="false">unfinished expression before compiler directive</string>
+	<string name="error_msg_058" formatted="false">duplicate argument; same argument is passed twice</string>
+	<string name="error_msg_059" formatted="false">function argument may not have a default value (variable "%s")</string>
+	<string name="error_msg_060" formatted="false">multiple "#else" directives between "#if ... #endif"</string>
+	<string name="error_msg_061" formatted="false">"#elseif" directive follows an "#else" directive</string>
+	<string name="error_msg_062" formatted="false">number of operands does not fit the operator</string>
+	<string name="error_msg_063" formatted="false">function result tag of operator "%s" must be "%s"</string>
+	<string name="error_msg_064" formatted="false">cannot change predefined operators</string>
+	<string name="error_msg_065" formatted="false">function argument may only have a single tag (argument %d)</string>
+	<string name="error_msg_066" formatted="false">function argument may not be a reference argument or an array (argument "%s")</string>
+	<string name="error_msg_067" formatted="false">variable cannot be both a reference and an array (variable "%s")</string>
+	<string name="error_msg_068" formatted="false">invalid rational number precision in #pragma</string>
+	<string name="error_msg_069" formatted="false">rational number format already defined</string>
+	<string name="error_msg_070" formatted="false">rational number support was not enabled</string>
+	<string name="error_msg_071" formatted="false">user-defined operator must be declared before use (function "%s")</string>
+	<string name="error_msg_072" formatted="false">"sizeof" operator is invalid on "function" symbols</string>
+	<string name="error_msg_073" formatted="false">function argument must be an array (argument "%s")</string>
+	<string name="error_msg_074" formatted="false">#define pattern must start with an alphabetic character</string>
+	<string name="error_msg_075" formatted="false">input line too long (after substitutions)</string>
+	<string name="error_msg_076" formatted="false">syntax error in the expression, or invalid function call</string>
+	<string name="error_msg_077" formatted="false">malformed UTF-8 encoding, or corrupted file: %s</string>
+	<string name="error_msg_078" formatted="false">function uses both "return" and "return &lt;value&gt;"</string>
+	<string name="error_msg_079" formatted="false">inconsistent return types (array &amp; non-array)</string>
+	<string name="error_msg_080" formatted="false">unknown symbol, or not a constant symbol (symbol "%s")</string>
+	<string name="error_msg_081" formatted="false">cannot take a tag as a default value for an indexed array parameter (symbol "%s")</string>
+	<string name="error_msg_082" formatted="false">user-defined operators and native functions may not have states</string>
+	<string name="error_msg_083" formatted="false">a function or variable may only belong to a single automaton (symbol "%s")</string>
+	<string name="error_msg_084" formatted="false">state conflict: one of the states is already assigned to another implementation (symbol "%s")</string>
+	<string name="error_msg_085" formatted="false">no states are defined for symbol "%s"</string>
+	<string name="error_msg_086" formatted="false">unknown automaton "%s"</string>
+	<string name="error_msg_087" formatted="false">unknown state "%s" for automaton "%s"</string>
+	<string name="error_msg_088" formatted="false">public variables and local variables may not have states (symbol "%s")</string>
+	<string name="error_msg_089" formatted="false">state variables may not be initialized (symbol "%s")</string>
+	<string name="error_msg_090" formatted="false">public functions may not return arrays (symbol "%s")</string>
+	<string name="error_msg_091" formatted="false">ambiguous constant; tag override is required (symbol "%s")</string>
+	<string name="error_msg_092" formatted="false">functions may not return arrays of unknown size (symbol "%s")</string>
+	<string name="error_msg_093" formatted="false">"__addressof" operator is invalid in preprocessor expressions</string>
+	
+	<!-- Warning Messages -->
+	<string name="warning_msg_200" formatted="false">symbol "%s" is truncated to %d characters</string>
+	<string name="warning_msg_201" formatted="false">redefinition of constant/macro (symbol "%s")</string>
+	<string name="warning_msg_202" formatted="false">number of arguments does not match definition</string>
+	<string name="warning_msg_203" formatted="false">symbol is never used: "%s"</string>
+	<string name="warning_msg_204" formatted="false">symbol is assigned a value that is never used: "%s"</string>
+	<string name="warning_msg_205" formatted="false">redundant code: constant expression is zero</string>
+	<string name="warning_msg_206" formatted="false">redundant test: constant expression is non-zero</string>
+	<string name="warning_msg_207" formatted="false">unknown #pragma</string>
+	<string name="warning_msg_208" formatted="false">function with tag result used before definition, forcing reparse</string>
+	<string name="warning_msg_209" formatted="false">function "%s" should return a value</string>
+	<string name="warning_msg_210" formatted="false">possible use of symbol before initialization: "%s"</string>
+	<string name="warning_msg_211" formatted="false">possibly unintended assignment</string>
+	<string name="warning_msg_212" formatted="false">possibly unintended bitwise operation</string>
+	<string name="warning_msg_213" formatted="false">tag mismatch: expected %s %s but found %s</string>
+	<string name="warning_msg_214" formatted="false">possibly a "const" array argument was intended: "%s"</string>
+	<string name="warning_msg_215" formatted="false">expression has no effect</string>
+	<string name="warning_msg_216" formatted="false">nested comment</string>
+	<string name="warning_msg_217" formatted="false">loose indentation</string>
+	<string name="warning_msg_218" formatted="false">old style prototypes used with optional semicolumns</string>
+	<string name="warning_msg_219" formatted="false">local variable "%s" shadows a variable at a preceding level</string>
+	<string name="warning_msg_220" formatted="false">expression with tag override must appear between parentheses</string>
+	<string name="warning_msg_221" formatted="false">label name "%s" shadows tag name</string>
+	<string name="warning_msg_222" formatted="false">number of digits exceeds rational number precision</string>
+	<string name="warning_msg_223" formatted="false">redundant "sizeof": argument size is always 1 (symbol "%s")</string>
+	<string name="warning_msg_224" formatted="false">indeterminate array size in "sizeof" expression (symbol "%s")</string>
+	<string name="warning_msg_225" formatted="false">unreachable code</string>
+	<string name="warning_msg_226" formatted="false">a variable is assigned to itself (symbol "%s")</string>
+	<string name="warning_msg_227" formatted="false">more initiallers than enum fields</string>
+	<string name="warning_msg_228" formatted="false">length of initialler exceeds size of the enum field</string>
+	<string name="warning_msg_229" formatted="false">index tag mismatch (symbol "%s"): expected tag %s but found %s</string>
+	<string name="warning_msg_230" formatted="false">no implementation for state "%s" in function "%s", no fall-back</string>
+	<string name="warning_msg_231" formatted="false">state specification on forward declaration is ignored</string>
+	<string name="warning_msg_232" formatted="false">output file is written, but with compact encoding disabled</string>
+	<string name="warning_msg_233" formatted="false">state variable "%s" shadows a global variable</string>
+	<string name="warning_msg_234" formatted="false">function is deprecated (symbol "%s") %s</string>
+	<string name="warning_msg_235" formatted="false">public function lacks forward declaration (symbol "%s")</string>
+	<string name="warning_msg_236" formatted="false">unknown parameter in substitution (incorrect #define pattern)</string>
+	<string name="warning_msg_237" formatted="false">user warning: %s</string>
+	<string name="warning_msg_238" formatted="false">meaningless combination of class specifiers (%s)</string>
+	<string name="warning_msg_239" formatted="false">literal array/string passed to a non-const parameter</string>
+</resources>
